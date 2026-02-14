@@ -29,16 +29,21 @@ Project Folder Structure:
 move_review_analysis/
 │
 ├── DATA/
-│   ├── reviews_with_severity.csv
-│   └── IMDB_Dataset.csv
+│   ├── IMDB_Dataset.csv
+│   └── reviews_with_severity.csv
 │
 ├── SCRIPTS/
-│   └── movie-reviews-script.ipynb
+│   ├── movie-reviews-script.py
+│   └── movie-review-testing.R
 │
 ├── OUTPUT/
+│   ├── anova_extremity_length_group.csv
 │   ├── log_transformed_review_length.png
+│   ├── mean_extremity_by_length_group.pdf
+│   ├── pairwise_extremity_length_group.csv
 │   ├── q_q_plot.png
-│   └── raw_review_length.png
+│   ├── raw_review_length.png
+│   └── t_test_review_length_sentiment.csv
 │
 ├── README.md
 └── LICENSE
